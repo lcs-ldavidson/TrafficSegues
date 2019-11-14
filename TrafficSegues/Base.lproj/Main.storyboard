@@ -14,32 +14,10 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIU-3i-VMZ">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="Cbo-Fr-vkg" kind="show" id="Clx-aS-U2f"/>
-                                </connections>
-                            </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i4P-27-u03">
-                                <rect key="frame" x="159" y="391" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="0.45725198017728252" blue="0.42679163212816917" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="OIU-3i-VMZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="29J-fH-pzu"/>
-                            <constraint firstItem="OIU-3i-VMZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dZz-0d-N37"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Red" id="8SY-Q8-2R2"/>
-                    <connections>
-                        <outlet property="textField" destination="i4P-27-u03" id="L7s-6J-vI2"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -52,20 +30,7 @@
                     <view key="view" contentMode="scaleToFill" id="Asu-oe-jnG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlk-EF-l1h">
-                                <rect key="frame" x="184" y="433" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="M20-kU-y88" kind="show" id="9wb-c9-Oq6"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="0.91163622359154928" blue="0.55818111795774639" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="vlk-EF-l1h" firstAttribute="centerY" secondItem="Asu-oe-jnG" secondAttribute="centerY" id="Rm0-72-SPZ"/>
-                            <constraint firstItem="vlk-EF-l1h" firstAttribute="centerX" secondItem="Asu-oe-jnG" secondAttribute="centerX" id="vpu-vK-geU"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qDT-Au-aQm"/>
                     </view>
                     <navigationItem key="navigationItem" title="Yellow" id="EF3-VY-NZX"/>
@@ -84,16 +49,9 @@
                         <color key="backgroundColor" red="0.50238636166174899" green="0.78039215689999997" blue="0.57236060942738654" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="xnE-LD-4OD"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Green" id="eLw-K0-aKt">
-                        <barButtonItem key="rightBarButtonItem" title="Pop" id="PVT-bF-uky">
-                            <connections>
-                                <segue destination="j85-3E-kVc" kind="unwind" unwindAction="unwindToRedWithUnwindSegue:" id="1nV-aA-kq0"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Green" id="eLw-K0-aKt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gjn-6a-8hL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="j85-3E-kVc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2513.04347826087" y="114.50892857142857"/>
         </scene>
